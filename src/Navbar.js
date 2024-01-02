@@ -37,6 +37,8 @@ function Navbar() {
             ))}
           </List>
         </Drawer>
+        <Box>
+        <Box sx={{ flexDirection: 'column', display: 'flex' }}>
         <Typography
           variant="h5"
           noWrap
@@ -57,6 +59,20 @@ function Navbar() {
         >
           BIG SPOON LIL’ SPOON
         </Typography>
+        <Typography
+            variant="body2"
+            noWrap
+            sx={{
+              fontSize: 'small',
+              color: 'black',
+              textAlign: 'left',
+            }}
+            
+          >
+            University of Waterloo
+          </Typography>
+          </Box>
+          </Box>
         <Box sx={{ display: { xs: 'none', md: 'flex' }, marginLeft: 'auto' }}>
           {my_pages.map((page) => (
             <Button
