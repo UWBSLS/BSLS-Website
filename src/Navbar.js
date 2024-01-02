@@ -44,16 +44,18 @@ function Navbar() {
           href="/"
           sx={{
             mr: 2,
-            fontWeight: 200,
-            fontFamily: 'roboto',
-            color: 'white',
+            fontFamily: 'Roboto',
             letterSpacing: '.2rem',
             textDecoration: 'none',
+            fontStyle: 'normal',
+            fontWeight: '900',
             color: 'black',
+            letterSpacing: '-1.5px',
+            fontsize: '32px',
           }}
           
         >
-          Big Spoon Lil Spoon
+          BIG SPOON LIL’ SPOON
         </Typography>
         <Box sx={{ display: { xs: 'none', md: 'flex' }, marginLeft: 'auto' }}>
           {my_pages.map((page) => (
